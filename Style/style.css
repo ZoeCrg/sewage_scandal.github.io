@@ -124,11 +124,9 @@ section img#diver {
 }
 
 .titlepage h2 {
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: center;
-    top: 330px;
-    left: 400px;
     color: #fff;
     white-space: nowrap;
     font-size: 4vw;
