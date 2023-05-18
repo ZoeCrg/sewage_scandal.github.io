@@ -111,11 +111,9 @@ section img#diver {
 }
 
 .aboutpage h1 {
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: center;
-    top: 100px;
-    left: 580px;
     color: #fff;
     white-space: nowrap;
     font-size: 4vw;
