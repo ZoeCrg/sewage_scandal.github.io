@@ -149,8 +149,10 @@ section img#diver {
 .titlepage
 
 #btn {
-    position: relative;
+    position: absolute;
     display: flex;
+    left: 40vw; 
+    top: 20vh;
     justify-content: center;
     text-decoration: none;
     display: inline-block;
