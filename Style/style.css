@@ -504,12 +504,13 @@ a {
 .container3 {
     display: flex;
     margin-top: 20px;
+    overflow: hidden;
   }
   
   .container3 img {
-    width: 500px;
+    max-width: 35%;
     height: auto;
-    margin-left: 120px;
+    margin-left: 10%;
   }
 
 .container4 {
