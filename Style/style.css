@@ -149,10 +149,9 @@ section img#diver {
 .titlepage
 
 #btn {
-    position: absolute;
+    position: relative;
     display: flex;
-    top: 200px;
-    left: 600px;
+    justify-content: center;
     text-decoration: none;
     display: inline-block;
     padding: 8px 30px;
