@@ -83,7 +83,6 @@ section img#stars{
     z-index: 2
 }
 
-/* Animation webkit */
 @-webkit-keyframes myfirst
 {
 	0% {margin-left: -235px}
@@ -91,7 +90,6 @@ section img#stars{
 	100% {margin-left: 100%;}
 }
 
-/* Animation */
 @keyframes myfirst
 {
 	0% {margin-left: -235px}
