@@ -95,7 +95,7 @@ section img#fish_school {
     left: 0;
     top: 100px;
     width: 100%;
-    height: auto%;
+    height: 100%;
     object-fit: cover;
     z-index: 10;
 }
@@ -513,15 +513,17 @@ a {
     margin-left: 10%;
   }
 
+
 .container4 {
     display: flex;
-    margin-top: 20px;
+    margin-top: 5%;
+    overflow: hidden;
   }
 
     .container4 img { 
-        width: 500px;
-        height: auto;
-        margin-left: 35px;
+    max-width: 35%;
+    height: auto;
+    margin-left: 10%;
     }
 
   
