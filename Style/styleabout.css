@@ -124,8 +124,7 @@ section img#diver {
     position: absolute;
     display: flex;
     justify-content: center;
-    padding: 100px;
-    top: 10;
+    padding: 3%;
     left: 0;
     color: #fff;
     font-size: 1em;
