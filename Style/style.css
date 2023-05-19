@@ -110,19 +110,6 @@ section img#diver {
     z-index: 2;
 }
 
-/* .titlepage h1 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    top: 100px;
-    left: 540px;
-    color: #fff;
-    white-space: nowrap;
-    font-size: 4vw;
-    z-index: 2;
-
-} */
-
 .titlepage h2 {
     position: relative;
     display: flex;
