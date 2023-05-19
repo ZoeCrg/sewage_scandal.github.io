@@ -26,14 +26,6 @@ header {
     z-index: 10000;
 }
 
-header .logo {
-    color: #fff;
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
 
 header ul {
     display: flex;
@@ -355,21 +347,16 @@ a {
   
 .containers {
     padding:0 10px 0 10px;
+
 }
 
 .card {
     display: flex;
-    width: 200px;
-    top: 30px;
-    right: 50px;
-    border-radius: 50px;
-    box-shadow: -1rem 0 3rem #000;
+    width: 30%;
+    top: auto;
     background-color: white;
     transition: 0.4s ease-out;
     position: relative;
-    margin-bottom: 70px;
-    margin-top: 30px; /* Add margin-top */
-    margin-right: 140px;
     z-index: 100;
   }
 
@@ -380,57 +367,25 @@ a {
 
 .card:hover ~ .card {
     position: relative;
-    left: 50px;
     transition: 0.4s ease-out;
-}
-
-.containers row::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
 }
   
 .row {
-    display: flex;
-    justify-content: space-between;
+        display: grid;
+        grid-gap: 1em;
+      }
+      @media only screen and (min-width: 500px) {
+        .wrapper {
+          grid-template-columns: 20% auto;
+        }
+      }
+      @media only screen and (min-width: 600px) {
+        .wrapper {
+          grid-gap: 20px;
+          grid-template-columns: 120px auto 120px;
+          max-width: 600px;
+        }
 }
-
-.container {
-    position: absolute;
-    height: 300px;
-    width: 600px;
-    top: 60px;
-    left: calc(50% - 300px);
-    display: flex;
-}
-
-  .cards {
-    display: flex;
-    width: 400px;
-    border-radius: 5px;
-    box-shadow: -1rem 0 3rem #000;
-    background-color: gray ;
-    transition: 0.4s ease-out;
-    position: relative;
-    top: 360px;
-    left: 0px;
-    z-index: 100;
-  }
-  
-  .cards:not(:first-child) {
-      margin-left: -50px;
-  }
-  
-  .cards:hover {
-    transform: translateY(-20px);
-    transition: 0.4s ease-out;
-  }
-  
-  .cards:hover ~ .card {
-    position: relative;
-    left: 50px;
-    transition: 0.4s ease-out;
-  }
   
   .title {
     color: rgb(255, 255, 255);
@@ -478,7 +433,6 @@ a {
   }
 
   a {
-    padding: 0.5em 1em;
     font-size: 0.8em;
     color: #a9b1b3;
     text-decoration: none;
