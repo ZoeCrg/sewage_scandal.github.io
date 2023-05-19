@@ -7,3 +7,6 @@ Our project topic is one that we feel particularly passionate about, with one of
 
 This project aims to highlight some of the shocking realities of sewage pollution and the quality of our bathing waters, in addition to 
 shining a spotlight on some of the fantastic projects and campaigns that are turning the tide on the sewage scandal. 
+
+Thank you everyone who has helped us make this project possible. From those who have been generous enough to commit their time to 
+interviews and meetings, responding to our emails, and to those who have kindly lent us their art and photography. 
