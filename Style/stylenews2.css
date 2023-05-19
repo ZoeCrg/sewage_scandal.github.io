@@ -197,7 +197,6 @@ button:hover{
 }
 
 @media only screen and (max-width: 1000px) {
-    /* For tablets: */
   .articleText {
     margin: 0 10% 30px 10%; 
     width: 80%;
@@ -207,7 +206,6 @@ button:hover{
   }
 }
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
   .articleText {
     margin: 0 5% 30px 5%; 
     width: 90%;
